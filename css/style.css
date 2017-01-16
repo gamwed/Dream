@@ -8,31 +8,23 @@
 body {
 	font-family: 'Josefin Slab', serif;
 	overflow-x: hidden;
-}
-body {
 	color: #000;
 }
 header {
-	box-shadow: inset 0px -10px 10px rgba(0,0,0,0.1);
+	position: fixed;
+	width: 10%;
+	margin-top: -54px;
+	padding: 1%;
+	padding-top: 0;
+	top: 50%;
 }
-.img-responsive {
-	margin: 0 auto;
-	vertical-align: middle;
-}
-.container {
-	padding: 0;
-}
-.logo h1{
-	text-align: left;
-	margin-bottom: 25px;
+.general{
+	display: inline-block;
+	width: 90%;
+	float: right;
 }
 #redi {
 	color: red;
-}
-.button {
-	text-align: right;
-	margin-top: 20px;
-	margin-bottom: 25px;
 }
 .black-butt {
     color: #fff;
@@ -49,75 +41,4 @@ header {
     background: #fff;
     border: 2px solid #000;
     padding: 0;
-}
-.creative-box {
-	margin-top: 84px;
-	min-height: 390px;
-	box-shadow: 0 0 20px rgba(0,0,0,0.7);
-}
-.fotorama {
-	width: 100%;
-	height: 100%;
-	margin: 0 auto;
-}
-.fotorama img {
-}
-.top-section {
-	border-top: 2px solid #000;
-}
-.content {
-	padding-top: 40px;
-}
-.not img {
-	margin-top: 70px;
-	width: 700px;
-}
-.imegtop  {
-	position: absolute;
-	height: 100%;
-	margin-top: 10px;
-}
-.info {
-	vertical-align: middle;
-}
-.info:before {
-	content:'';
-	display: block;
-	height: 2px;
-	width: 90%;
-	margin: 0 auto;
-	background-color: #000;
-}
-.info p {
-	font-size: 20px;
-	text-align: justify;
-}
-.row1 {
-	margin-top: 84px;
-}
-.row1 h2{
-	text-align: center;
-}
-.left {
-	position: absolute;
-	left: -2px;
-}
-.right {
-	position: relative;
-	display: block;
-	vertical-align: baseline;
-	height: 100%;
-	margin-left: 45px;
-}
-.row2 {
-	margin-top: 20px;
-	text-align: right;
-	z-index: 1;
-}
-.row3 {
-	margin-top: 50px;
-}
-#hat img {
-	display: block;
-	vertical-align: baseline;
 }

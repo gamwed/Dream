@@ -9,6 +9,7 @@ $('button').click(function(){
 		$('#minion').attr('src','imeg/minion-b.png')
 		$('#hat').attr('src','imeg/hat-b.jpg')
 		$('#finger').attr('src','imeg/fingers-b.png')
+		$('#skuns').attr('src','imeg/skuns-b.png')
 	}
 
 	else {
@@ -21,6 +22,7 @@ $('button').click(function(){
 		$('#minion').attr('src','imeg/minion.png')
 		$('#hat').attr('src','imeg/hat.jpg')
 		$('#finger').attr('src','imeg/fingers.png')
+		$('#skuns').attr('src','imeg/skuns.png')
 	}
 });
 	
